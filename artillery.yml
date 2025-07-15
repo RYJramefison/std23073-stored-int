@@ -1,5 +1,5 @@
 config:
-  target: "http://localhost:8080"
+  target: "https://q4alssvmjaf4j6vkauqlhblij40wsgnj.lambda-url.eu-west-3.on.aws"
   phases:
     - duration: 60
     - arrivalRate: 50
