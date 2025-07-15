@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class StoredIntController {
 
-  private static final Path filePath = Path.of("stored-int.txt");
+  private static final Path filePath = Path.of("/tmp/stored-int.txt");
 
   @GetMapping("/stored-int")
   public synchronized int getStoredInt() throws IOException {
